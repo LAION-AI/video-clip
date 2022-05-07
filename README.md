@@ -15,6 +15,9 @@ https://docs.google.com/document/d/1WGGRzPAJw1uwUEuNgWlOYPg3yZJetyvsIQLtJ8nV8FQ/
 
 ### contrastive
 
+https://arxiv.org/abs/2203.12602
+https://github.com/MCG-NJU/VideoMAE
+
 * (video, text)
 * (video, image)
 
