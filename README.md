@@ -1,0 +1,30 @@
+# laion-video
+
+Build video models
+
+
+https://github.com/LAION-AI/project-menu/issues/22
+https://docs.google.com/document/d/1WGGRzPAJw1uwUEuNgWlOYPg3yZJetyvsIQLtJ8nV8FQ/edit?usp=sharing
+
+
+## Datasets
+
+
+## Models
+
+
+### contrastive
+
+* (video, text)
+* (video, image)
+
+### Generative
+
+
+video -> text 
+
+text -> video 
+
+video -> image 
+
+image -> video 
