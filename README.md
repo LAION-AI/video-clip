@@ -6,6 +6,9 @@ Build video models
 https://github.com/LAION-AI/project-menu/issues/22
 https://docs.google.com/document/d/1WGGRzPAJw1uwUEuNgWlOYPg3yZJetyvsIQLtJ8nV8FQ/edit?usp=sharing
 
+## Tools
+
+https://github.com/iejMac/clip-video-encode
 
 ## Datasets
 
@@ -62,3 +65,4 @@ text -> video
 video -> image 
 
 image -> video 
+
