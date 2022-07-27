@@ -26,6 +26,10 @@ Our plan to create the training dataset for video-clip is to combine the availab
 ### Contributions:
 Converting one of the datasets in the aformentioned document into our standard format using our tools is probably the lowest effort and highest impact thing you can help out with. Creating the dataset will likely take a lot of small efforts like these so picking out one dataset and guiding/tweaking the scripts to prepare them for our large training runs is very helpful and doesn't require a lot of expertise. You can find an example of how we did this with Kinetics700 at the bottom of [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset)
 
+## Modeling
+
+There are a lot of potential methods of pooling together semantic frame embeddings to produce one global frame embedding. We investigaate them in [this repository](https://github.com/LAION-AI/temporal-embedding-aggregation). 
+
 
 ## Useful literature
 
