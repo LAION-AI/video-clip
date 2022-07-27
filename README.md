@@ -10,10 +10,10 @@ Ref LAION project menu - https://github.com/LAION-AI/project-menu/issues/22
 
 ## Tools
 
-###[video2numpy](https://github.com/iejMac/video2numpy):
+### [video2numpy](https://github.com/iejMac/video2numpy):
 video2numpy is a library for downloading and decoding videos into numpy arrays for further processing at large scale. Our goal of training a large contrastive represtenation learning model will require a lot of video data which is costly to download and decode. We built this library because it seems like a lot of projects could benefit from a tool like this so we hope members of those projects will come together to help developing this tool so we can all efficiently train large models on giant video datasets.
 
-###[clip-video-encode](https://github.com/iejMac/clip-video-encode):
+### [clip-video-encode](https://github.com/iejMac/clip-video-encode):
 clip-video-encode is a library like video2numpy, however it performs an additional processing step of encoding the frames using a CLIP image encoder. The embedding sequences produced by clip-video-encode can be used for semantic search within videos as shown in [this example](https://github.com/iejMac/clip-video-encode/tree/main/examples/thing_detector). 
 
 ### Contributions:
