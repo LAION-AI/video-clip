@@ -6,7 +6,6 @@ We want to build a model that can understand video and text the same way CLIP ca
 *  Modeling higher-level, coarse semantic sequences will improve long context video understanding.
 *  Lower computational cost allows for more experimentation and therefore more refined algorithms.
 
-Ref LAION project menu - https://github.com/LAION-AI/project-menu/issues/22
 
 ## Datasets
 
@@ -55,3 +54,5 @@ There are a lot of potential methods of pooling together semantic frame embeddin
 
 https://arxiv.org/abs/2203.12602
 https://github.com/MCG-NJU/VideoMAE
+
+Ref LAION project menu - https://github.com/LAION-AI/project-menu/issues/22
