@@ -9,7 +9,7 @@ We want to build a model that can understand video and text the same way CLIP ca
 
 ## Datasets
 
-Our plan to create the training dataset for video-clip is to combine the available dataset into one large frame_embedding-text dataset. You can find a list of datasets we plan on converting to our standard format [here](https://docs.google.com/document/d/12zYnjZabR2e17vPO2XpctIf1qUQeEX7kYC8GdDqWM-k/edit). The format is specified in [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset) along with a few helpful scripts for converting datasets into it.
+Our plan to create the training dataset for video-clip is to combine the available dataset into one large frame_embedding-text dataset. You can find a list of datasets we plan on converting to our standard format [here](https://docs.google.com/document/d/12zYnjZabR2e17vPO2XpctIf1qUQeEX7kYC8GdDqWM-k/edit). The target format is specified in [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset) along with a few helpful scripts for converting datasets into it.
 
 ### Contributions:
 Converting one of the datasets in the aformentioned document into our standard format using our tools is probably the lowest effort and highest impact thing you can help out with. Creating the dataset will likely take a lot of small efforts like these so picking out one dataset and guiding/tweaking the scripts to prepare them for our large training runs is very helpful and doesn't require a lot of expertise. You can find an example of how we did this with Kinetics700 at the bottom of [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset)
