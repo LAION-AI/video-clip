@@ -8,6 +8,14 @@ We want to build a model that can understand video and text the same way CLIP ca
 
 Ref LAION project menu - https://github.com/LAION-AI/project-menu/issues/22
 
+## Datasets
+
+Our plan to create the training dataset for video-clip is to combine the available dataset into one large frame_embedding-text dataset. You can find a list of datasets we plan on converting to our standard format [here](https://docs.google.com/document/d/12zYnjZabR2e17vPO2XpctIf1qUQeEX7kYC8GdDqWM-k/edit). The format is specified in [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset) along with a few helpful scripts for converting datasets into it.
+
+### Contributions:
+Converting one of the datasets in the aformentioned document into our standard format using our tools is probably the lowest effort and highest impact thing you can help out with. Creating the dataset will likely take a lot of small efforts like these so picking out one dataset and guiding/tweaking the scripts to prepare them for our large training runs is very helpful and doesn't require a lot of expertise. You can find an example of how we did this with Kinetics700 at the bottom of [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset)
+
+
 ## Tools
 
 ### [video2numpy](https://github.com/iejMac/video2numpy):
@@ -19,16 +27,10 @@ clip-video-encode is a library like video2numpy, however it performs an addition
 ### Contributions:
 If you'd like to contribute to video-clip tooling I suggest visiting the github pages of the tools and looking at the issues to see if there are any you'd like to solve.
 
-## Datasets
-
-Our plan to create the training dataset for video-clip is to combine the available dataset into one large frame_embedding-text dataset. You can find a list of datasets we plan on converting to our standard format [here](https://docs.google.com/document/d/12zYnjZabR2e17vPO2XpctIf1qUQeEX7kYC8GdDqWM-k/edit). The format is specified in [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset) along with a few helpful scripts for converting datasets into it.
-
-### Contributions:
-Converting one of the datasets in the aformentioned document into our standard format using our tools is probably the lowest effort and highest impact thing you can help out with. Creating the dataset will likely take a lot of small efforts like these so picking out one dataset and guiding/tweaking the scripts to prepare them for our large training runs is very helpful and doesn't require a lot of expertise. You can find an example of how we did this with Kinetics700 at the bottom of [clip-video-encode/dataset](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset)
 
 ## Modeling
 
-There are a lot of potential methods of pooling together semantic frame embeddings to produce one global frame embedding. We investigaate them in [this repository](https://github.com/LAION-AI/temporal-embedding-aggregation). 
+There are a lot of potential methods of pooling together semantic frame embeddings to produce one global video embedding. We investigate them in [this repository](https://github.com/LAION-AI/temporal-embedding-aggregation).
 
 
 ## Useful literature
